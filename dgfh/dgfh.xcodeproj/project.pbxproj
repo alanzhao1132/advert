@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		085614871C3EA1AA006D0B2A /* AdverTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 085614861C3EA1AA006D0B2A /* AdverTableViewCell.m */; };
 		08AB54B61B5E90610016533A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AB54B51B5E90610016533A /* main.m */; };
 		08AB54B91B5E90610016533A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AB54B81B5E90610016533A /* AppDelegate.m */; };
 		08AB54BB1B5E90610016533A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08AB54BA1B5E90610016533A /* Images.xcassets */; };
@@ -25,6 +26,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		085614851C3EA1AA006D0B2A /* AdverTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdverTableViewCell.h; sourceTree = "<group>"; };
+		085614861C3EA1AA006D0B2A /* AdverTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdverTableViewCell.m; sourceTree = "<group>"; };
 		08AB54B01B5E90600016533A /* dgfh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dgfh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08AB54B41B5E90610016533A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08AB54B51B5E90610016533A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -79,6 +82,8 @@
 				08AB54B71B5E90610016533A /* AppDelegate.h */,
 				08AB54B81B5E90610016533A /* AppDelegate.m */,
 				08AB54BA1B5E90610016533A /* Images.xcassets */,
+				085614851C3EA1AA006D0B2A /* AdverTableViewCell.h */,
+				085614861C3EA1AA006D0B2A /* AdverTableViewCell.m */,
 				08AB54BC1B5E90610016533A /* LaunchScreen.xib */,
 				08AB54B31B5E90610016533A /* Supporting Files */,
 			);
@@ -212,6 +217,7 @@
 			files = (
 				08AB54B91B5E90610016533A /* AppDelegate.m in Sources */,
 				08AB54B61B5E90610016533A /* main.m in Sources */,
+				085614871C3EA1AA006D0B2A /* AdverTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +400,7 @@
 				08AB54CF1B5E90610016533A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		08AB54D01B5E90610016533A /* Build configuration list for PBXNativeTarget "dgfhTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +409,7 @@
 				08AB54D21B5E90610016533A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
